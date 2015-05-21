@@ -1,0 +1,195 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'update',
+1 verbose cli   '-g',
+1 verbose cli   'bower' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink /usr/local/bin/node
+5 silly mapToRegistry name bower
+6 silly mapToRegistry using default registry
+7 silly mapToRegistry registry https://registry.npmjs.org/
+8 silly mapToRegistry uri https://registry.npmjs.org/bower
+9 verbose request uri https://registry.npmjs.org/bower
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 19:01:18
+12 verbose request id 351e29e45943cf11
+13 verbose etag "AJZG3F9BBUBU91J9Y6TINU9II"
+14 http request GET https://registry.npmjs.org/bower
+15 http 200 https://registry.npmjs.org/bower
+16 silly get cb [ 200,
+16 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+16 silly get     etag: '"5O4HUOKW503HIN1GUHXSZ5J7Q"',
+16 silly get     'content-type': 'application/json',
+16 silly get     'cache-control': 'max-age=60',
+16 silly get     'content-length': '112074',
+16 silly get     'accept-ranges': 'bytes',
+16 silly get     date: 'Thu, 21 May 2015 22:01:19 GMT',
+16 silly get     via: '1.1 varnish',
+16 silly get     age: '30',
+16 silly get     connection: 'keep-alive',
+16 silly get     'x-served-by': 'cache-jfk1022-JFK',
+16 silly get     'x-cache': 'HIT',
+16 silly get     'x-cache-hits': '2',
+16 silly get     'x-timer': 'S1432245679.079125,VS0,VE0',
+16 silly get     vary: 'Accept' } ]
+17 verbose get saving bower to /Users/alvaro/.npm/registry.npmjs.org/bower/.cache.json
+18 info outdated updating [ [ '/usr/local/lib', 'bower', '1.3.12', '1.4.1', '1.4.1', 'latest' ] ]
+19 verbose install where, what [ '/usr/local/lib', [ 'bower@1.4.1' ] ]
+20 silly cache add args [ 'bower@1.4.1', null ]
+21 verbose cache add spec bower@1.4.1
+22 silly cache add parsed spec { raw: 'bower@1.4.1',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'bower',
+22 silly cache add   rawSpec: '1.4.1',
+22 silly cache add   spec: '1.4.1',
+22 silly cache add   type: 'version' }
+23 verbose addNamed bower@1.4.1
+24 silly addNamed semver.valid 1.4.1
+25 silly addNamed semver.validRange 1.4.1
+26 silly mapToRegistry name bower
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/bower
+30 verbose addNameVersion registry:https://registry.npmjs.org/bower not in flight; fetching
+31 verbose get https://registry.npmjs.org/bower not expired, no request
+32 silly cache afterAdd bower@1.4.1
+33 verbose afterAdd /Users/alvaro/.npm/bower/1.4.1/package/package.json not in flight; writing
+34 verbose afterAdd /Users/alvaro/.npm/bower/1.4.1/package/package.json written
+35 silly install resolved [ { name: 'bower',
+35 silly install resolved     version: '1.4.1',
+35 silly install resolved     description: 'The browser package manager',
+35 silly install resolved     author: { name: 'Twitter' },
+35 silly install resolved     licenses: [ [Object] ],
+35 silly install resolved     repository: { type: 'git', url: 'https://github.com/bower/bower' },
+35 silly install resolved     main: 'lib',
+35 silly install resolved     homepage: 'http://bower.io',
+35 silly install resolved     engines: { node: '>=0.10.0' },
+35 silly install resolved     dependencies:
+35 silly install resolved      { abbrev: '^1.0.5',
+35 silly install resolved        archy: '1.0.0',
+35 silly install resolved        'bower-config': '^0.6.1',
+35 silly install resolved        'bower-endpoint-parser': '^0.2.2',
+35 silly install resolved        'bower-json': '^0.4.0',
+35 silly install resolved        'bower-logger': '^0.2.2',
+35 silly install resolved        'bower-registry-client': '^0.3.0',
+35 silly install resolved        cardinal: '0.4.4',
+35 silly install resolved        chalk: '^1.0.0',
+35 silly install resolved        chmodr: '0.1.0',
+35 silly install resolved        configstore: '^0.3.2',
+35 silly install resolved        'decompress-zip': '^0.1.0',
+35 silly install resolved        fstream: '^1.0.3',
+35 silly install resolved        'fstream-ignore': '^1.0.2',
+35 silly install resolved        github: '^0.2.3',
+35 silly install resolved        glob: '^4.3.2',
+35 silly install resolved        'graceful-fs': '^3.0.5',
+35 silly install resolved        handlebars: '^2.0.0',
+35 silly install resolved        inquirer: '0.8.0',
+35 silly install resolved        insight: '^0.5.0',
+35 silly install resolved        'is-root': '^1.0.0',
+35 silly install resolved        junk: '^1.0.0',
+35 silly install resolved        lockfile: '^1.0.0',
+35 silly install resolved        'lru-cache': '^2.5.0',
+35 silly install resolved        mkdirp: '0.5.0',
+35 silly install resolved        mout: '^0.11.0',
+35 silly install resolved        nopt: '^3.0.1',
+35 silly install resolved        opn: '^1.0.1',
+35 silly install resolved        'p-throttler': '0.1.1',
+35 silly install resolved        promptly: '0.2.0',
+35 silly install resolved        q: '^1.1.2',
+35 silly install resolved        request: '2.53.0',
+35 silly install resolved        'request-progress': '0.3.1',
+35 silly install resolved        retry: '0.6.1',
+35 silly install resolved        rimraf: '^2.2.8',
+35 silly install resolved        semver: '^2.3.0',
+35 silly install resolved        'shell-quote': '^1.4.2',
+35 silly install resolved        'stringify-object': '^1.0.0',
+35 silly install resolved        'tar-fs': '^1.4.1',
+35 silly install resolved        tmp: '0.0.24',
+35 silly install resolved        'update-notifier': '^0.3.0',
+35 silly install resolved        'user-home': '^1.1.0',
+35 silly install resolved        which: '^1.0.8' },
+35 silly install resolved     devDependencies:
+35 silly install resolved      { chai: '^1.10.0',
+35 silly install resolved        coveralls: '^2.11.2',
+35 silly install resolved        'expect.js': '^0.3.1',
+35 silly install resolved        grunt: '^0.4.5',
+35 silly install resolved        'grunt-cli': '^0.1.13',
+35 silly install resolved        'grunt-contrib-jshint': '^0.10.0',
+35 silly install resolved        'grunt-contrib-watch': '^0.6.1',
+35 silly install resolved        'grunt-exec': '^0.4.6',
+35 silly install resolved        'grunt-simple-mocha': '^0.4.0',
+35 silly install resolved        istanbul: '^0.3.5',
+35 silly install resolved        'load-grunt-tasks': '^2.0.0',
+35 silly install resolved        mocha: '^2.1.0',
+35 silly install resolved        multiline: '^1.0.2',
+35 silly install resolved        nock: '^0.56.0',
+35 silly install resolved        'node-uuid': '^1.4.2',
+35 silly install resolved        proxyquire: '^1.3.0',
+35 silly install resolved        'spawn-sync': '^1.0.5' },
+35 silly install resolved     scripts: { test: 'grunt test' },
+35 silly install resolved     bin: { bower: 'bin/bower' },
+35 silly install resolved     preferGlobal: true,
+35 silly install resolved     gitHead: 'a1287416d40f944d58cb8f2e774e2076bfffd32f',
+35 silly install resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+35 silly install resolved     _id: 'bower@1.4.1',
+35 silly install resolved     _shasum: 'a18be39d030792754f30f1c5b32d37b0156ba8dd',
+35 silly install resolved     _from: 'bower@1.4.1',
+35 silly install resolved     _npmVersion: '2.7.4',
+35 silly install resolved     _nodeVersion: '0.12.0',
+35 silly install resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+35 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: 'a18be39d030792754f30f1c5b32d37b0156ba8dd',
+35 silly install resolved        tarball: 'http://registry.npmjs.org/bower/-/bower-1.4.1.tgz' },
+35 silly install resolved     directories: {},
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.4.1.tgz',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install bower@1.4.1 into /usr/local/lib
+37 info installOne bower@1.4.1
+38 verbose installOne of bower to /usr/local/lib not in flight; installing
+39 verbose lock using /Users/alvaro/.npm/_locks/bower-e8debc5417026b57.lock for /usr/local/lib/node_modules/bower
+40 silly install write writing bower 1.4.1 to /usr/local/lib/node_modules/bower
+41 silly cache addNamed cb bower@1.4.1
+42 verbose unbuild lib/node_modules/bower
+43 info preuninstall bower@1.3.12
+44 info uninstall bower@1.3.12
+45 verbose unbuild rmStuff bower@1.3.12 from /usr/local/lib/node_modules
+46 verbose gentlyRm verifying that /usr/local is managed by npm
+47 silly isManaged /usr/local/lib/node_modules is inside /usr/local
+48 silly gentlyRm /usr/local is managed by npm
+49 silly gentlyRm /usr/local/bin/bower is under /usr/local
+50 verbose gentlyRm vacuuming /usr/local/bin/bower up to /usr/local
+51 silly gentlyRm removing /usr/local/bin/bower
+52 verbose unlock done using /Users/alvaro/.npm/_locks/bower-e8debc5417026b57.lock for /usr/local/lib/node_modules/bower
+53 verbose stack Error: EACCES, unlink '/usr/local/bin/bower'
+53 verbose stack     at Error (native)
+54 verbose cwd /Users/alvaro/www/bower/ng-cpf-cnpj-validate
+55 error Darwin 13.3.0
+56 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "update" "-g" "bower"
+57 error node v0.12.0
+58 error npm  v2.5.1
+59 error path /usr/local/bin/bower
+60 error code EACCES
+61 error errno -13
+62 error Error: EACCES, unlink '/usr/local/bin/bower'
+62 error     at Error (native)
+62 error  { [Error: EACCES, unlink '/usr/local/bin/bower'] errno: -13, code: 'EACCES', path: '/usr/local/bin/bower' }
+63 error Please try running this command again as root/Administrator.
+64 verbose exit [ -13, true ]
+65 verbose unbuild lib/node_modules/bower
+66 info preuninstall bower@1.3.12
+67 info uninstall bower@1.3.12
+68 verbose unbuild rmStuff bower@1.3.12 from /usr/local/lib/node_modules
+69 verbose gentlyRm verifying that /usr/local is managed by npm
+70 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+71 silly isManaged /usr/local is not inside /usr/local/lib/node_modules
+72 silly isManaged /usr/local/bin is inside /usr/local
+73 silly gentlyRm /usr/local is managed by npm
+74 silly gentlyRm /usr/local/bin/bower is under /usr/local
+75 verbose gentlyRm vacuuming /usr/local/bin/bower up to /usr/local
+76 silly gentlyRm removing /usr/local/bin/bower
+77 error error rolling back Error: EACCES, unlink '/usr/local/bin/bower'
+77 error error rolling back     at Error (native)
+77 error error rolling back  { [Error: EACCES, unlink '/usr/local/bin/bower'] errno: -13, code: 'EACCES', path: '/usr/local/bin/bower' }
