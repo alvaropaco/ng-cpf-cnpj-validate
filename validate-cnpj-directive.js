@@ -1,5 +1,6 @@
 /**
  * @author Alvaro Paçó <alvaro@scalasoft.com.br>
+ * @see {@link http://www.geradorcnpj.com/javascript-validar-cnpj.htm}
  */
 (function () {
   'use strict';

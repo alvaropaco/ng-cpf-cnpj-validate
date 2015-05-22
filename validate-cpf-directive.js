@@ -1,5 +1,6 @@
 /**
  * @author Alvaro Paçó <alvaro@scalasoft.com.br>
+ * @see {@link http://www.geradorcpf.com/javascript-validar-cpf.htm}
  */
 (function () {
   'use strict';

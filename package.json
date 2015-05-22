@@ -1,6 +1,6 @@
 {
   "name": "ng-cpf-cnpj-validate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package contains two directives to validate the brazilians CPF and CNPJ documents.",
   "main": "validate-cnpj-directive.js",
   "scripts": {
