@@ -1,0 +1,27 @@
+{
+  "name": "ng-cpf-cnpj-validate",
+  "version": "1.0.1",
+  "description": "This package contains two directives to validate the brazilians CPF and CNPJ documents.",
+  "main": "validate-cnpj-directive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScalaSoft/ng-cpf-cnpj-validate.git"
+  },
+  "keywords": [
+    "cpf",
+    "cnpj",
+    "ng-validate",
+    "angular",
+    "js",
+    "validate"
+  ],
+  "author": "Alvaro Paçó <alvaro@scalasoft.com.br> (https://github.com/ScalaSoft)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScalaSoft/ng-cpf-cnpj-validate/issues"
+  },
+  "homepage": "https://github.com/ScalaSoft/ng-cpf-cnpj-validate"
+}
