@@ -12,7 +12,7 @@
    * @param {ngModel} model The Model to bind
    * @returns {boolean/'undefined'}
    */
-    .directive('validateCnpj', function ($compile) {
+    .directive('validateCnpj', ['$compile', function ($compile) {
       return {
         require: 'ngModel',
         scope: { 'validateCnpj': '=' },
@@ -116,6 +116,6 @@
 
         }
       };
-    });
+    }]);
 
 }).call(this);
